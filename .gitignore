@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.photo-curator/
+
+# Local backups and private development audit trail (kept on disk, never published)
+*.bak
+photo_curator.backup/
+.audit-v3/
+
+# Superseded spec drafts; only the approved revision is published
+docs/spec-v3-*.md
+!docs/spec-v3-revision-5g3a-draft.md
